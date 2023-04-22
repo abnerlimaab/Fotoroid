@@ -14,6 +14,8 @@
 		738E02BD29F400A000515779 /* Fotoroid.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 738E02BB29F400A000515779 /* Fotoroid.xcdatamodeld */; };
 		738E02BF29F400A000515779 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 738E02BE29F400A000515779 /* Assets.xcassets */; };
 		738E02C229F400A000515779 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 738E02C029F400A000515779 /* LaunchScreen.storyboard */; };
+		73E17F8229F407F1007C5408 /* EffectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E17F8129F407F1007C5408 /* EffectsViewController.swift */; };
+		73E17F8429F4082A007C5408 /* FinalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E17F8329F4082A007C5408 /* FinalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		738E02BE29F400A000515779 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		738E02C129F400A000515779 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		738E02C329F400A000515779 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73E17F8129F407F1007C5408 /* EffectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectsViewController.swift; sourceTree = "<group>"; };
+		73E17F8329F4082A007C5408 /* FinalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 				738E02B229F400A000515779 /* AppDelegate.swift */,
 				738E02B429F400A000515779 /* SceneDelegate.swift */,
 				738E02B629F400A000515779 /* ViewController.swift */,
+				73E17F8129F407F1007C5408 /* EffectsViewController.swift */,
+				73E17F8329F4082A007C5408 /* FinalViewController.swift */,
 				738E02B829F400A000515779 /* Main.storyboard */,
 				738E02BE29F400A000515779 /* Assets.xcassets */,
 				738E02C029F400A000515779 /* LaunchScreen.storyboard */,
@@ -142,8 +148,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				738E02B729F400A000515779 /* ViewController.swift in Sources */,
+				73E17F8429F4082A007C5408 /* FinalViewController.swift in Sources */,
 				738E02B329F400A000515779 /* AppDelegate.swift in Sources */,
 				738E02B529F400A000515779 /* SceneDelegate.swift in Sources */,
+				73E17F8229F407F1007C5408 /* EffectsViewController.swift in Sources */,
 				738E02BD29F400A000515779 /* Fotoroid.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,8 +305,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,9 +314,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.abnerlima.Fotoroid;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -325,8 +336,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -334,9 +345,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.abnerlima.Fotoroid;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
