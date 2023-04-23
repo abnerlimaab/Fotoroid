@@ -17,7 +17,7 @@ class FilterManager {
     let filterNames = [
         "CIComicEffect",
         "CISepiaTone",
-        "CICMYHalfTone",
+        "CICMYKHalftone",
         "CICrystallize",
         "CIVignette",
         "CIPhotoEffectNoir"

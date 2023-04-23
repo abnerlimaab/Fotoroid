@@ -64,9 +64,14 @@ extension EffectsViewController: UICollectionViewDataSource, UICollectionViewDel
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         if let type = FilterType(rawValue: indexPath.row) {
             showLoad(true)
-            let filteredImage = self.filterManager.applyFilter(type: type)
-            self.ivPhoto.image = filteredImage
-            showLoad(false)
+            DispatchQueue.global(qos: .userInitiated).async {
+                let filteredImage = self.filterManager.applyFilter(type: type)
+                
+                DispatchQueue.main.async {
+                    self.ivPhoto.image = filteredImage
+                    self.showLoad(false)
+                }
+            }
         }
     }
 }
