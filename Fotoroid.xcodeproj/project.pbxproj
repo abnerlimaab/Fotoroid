@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7352E82F29F5B06C0055DBFB /* FilterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7352E82E29F5B06C0055DBFB /* FilterManager.swift */; };
 		738E02B329F400A000515779 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738E02B229F400A000515779 /* AppDelegate.swift */; };
 		738E02B529F400A000515779 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738E02B429F400A000515779 /* SceneDelegate.swift */; };
 		738E02B729F400A000515779 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738E02B629F400A000515779 /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7352E82E29F5B06C0055DBFB /* FilterManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterManager.swift; sourceTree = "<group>"; };
 		738E02AF29F4009F00515779 /* Fotoroid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fotoroid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		738E02B229F400A000515779 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		738E02B429F400A000515779 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				738E02B629F400A000515779 /* ViewController.swift */,
 				73E17F8129F407F1007C5408 /* EffectsViewController.swift */,
 				73E17F8329F4082A007C5408 /* FinalViewController.swift */,
+				7352E82E29F5B06C0055DBFB /* FilterManager.swift */,
 				738E02B829F400A000515779 /* Main.storyboard */,
 				738E02BE29F400A000515779 /* Assets.xcassets */,
 				738E02C029F400A000515779 /* LaunchScreen.storyboard */,
@@ -152,6 +155,7 @@
 				738E02B329F400A000515779 /* AppDelegate.swift in Sources */,
 				738E02B529F400A000515779 /* SceneDelegate.swift in Sources */,
 				73E17F8229F407F1007C5408 /* EffectsViewController.swift in Sources */,
+				7352E82F29F5B06C0055DBFB /* FilterManager.swift in Sources */,
 				738E02BD29F400A000515779 /* Fotoroid.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
