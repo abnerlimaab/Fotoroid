@@ -38,6 +38,11 @@ class EffectsViewController: UIViewController {
         navigationController?.setNavigationBarHidden(false, animated: true)
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let vc = segue.destination as! FinalViewController
+        vc.image = ivPhoto.image
+    }
+    
     func showLoad(_ show: Bool) {
         viLoading.isHidden = !show
     }
